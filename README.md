@@ -1,1 +1,1 @@
-# NHibernateApp
+# DotNet Core -  *NHibernate*
