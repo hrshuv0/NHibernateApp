@@ -1,4 +1,4 @@
-﻿namespace InventoryApp.Models;
+﻿namespace Entities;
 
 public class Product
 {

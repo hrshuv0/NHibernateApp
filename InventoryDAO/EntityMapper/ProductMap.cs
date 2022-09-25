@@ -1,7 +1,7 @@
-﻿using FluentNHibernate.Mapping;
-using InventoryApp.Models;
+﻿using Entities;
+using FluentNHibernate.Mapping;
 
-namespace InventoryApp.EntityMapper;
+namespace InventoryDAO.EntityMapper;
 
 public class ProductMap : ClassMap<Product>
 {
