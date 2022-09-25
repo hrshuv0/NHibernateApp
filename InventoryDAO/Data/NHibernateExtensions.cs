@@ -7,7 +7,7 @@ using Services.Repository;
 
 namespace InventoryDAO.Data;
 
-public static class NHibernateExtensions
+public static class NHibernateExtension
 {
     public static IServiceCollection InitiateNhibernate(this IServiceCollection services, string connectionString)
     {

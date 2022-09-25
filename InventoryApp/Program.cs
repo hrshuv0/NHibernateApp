@@ -1,7 +1,14 @@
+
+
+using InventoryDAO.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnectionString");
+builder.Services.InitiateNhibernate(connectionString);
 
 var app = builder.Build();
 

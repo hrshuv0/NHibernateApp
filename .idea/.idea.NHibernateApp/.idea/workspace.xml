@@ -4,33 +4,55 @@
     <projectFile profileName="IIS Express">InventoryApp/InventoryApp.csproj</projectFile>
     <projectFile profileName="InventoryApp">InventoryApp/InventoryApp.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a51dfb95-ea34-4b77-8a8c-34f35fb28bf8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryApp/Controllers/ProductsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryApp/Views/Products/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InventoryApp/Views/Products/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NHibernateApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NHibernateApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryApp/Data/NHibernateExtension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryApp/InventoryApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryApp/InventoryApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryApp/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryApp/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryDAO/Data/NHibernateExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryDAO/Data/NHibernateExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Repository/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Repository/ProductRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1d4cbb866dc94adbef9d753e2c3bba82123ab8eb22b21f7bb3352eeef8cdb5/FluentConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FD6pWSRV3aFDIGmsDwPtcyDK9i" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.InventoryApp">
     <configuration name="InventoryApp" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/InventoryApp/InventoryApp.csproj" />
@@ -74,6 +96,12 @@
       <workItem from="1664014494779" duration="87000" />
       <workItem from="1664016049320" duration="48000" />
       <workItem from="1664016192327" duration="27000" />
+      <workItem from="1664077075418" duration="220000" />
+      <workItem from="1664079614336" duration="60000" />
+      <workItem from="1664080512058" duration="125000" />
+      <workItem from="1664081874132" duration="17000" />
+      <workItem from="1664081943345" duration="18000" />
+      <workItem from="1664083319385" duration="1236000" />
     </task>
     <servers />
   </component>
@@ -94,6 +122,26 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Repository/ProductRepository.cs</url>
+          <line>15</line>
+          <properties documentPath="D:\SD\Test\NHibernateApp\Services\Repository\ProductRepository.cs" initialLine="15" containingFunctionPresentation="method 'Create'">
+            <startOffsets>
+              <option value="300" />
+            </startOffsets>
+            <endOffsets>
+              <option value="301" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

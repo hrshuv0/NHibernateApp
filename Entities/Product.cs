@@ -2,8 +2,8 @@
 
 public class Product
 {
-    public long Id { get; set; }
-    public string Name { get; set; }
-    public string Category { get; set; }
+    public virtual long Id { get; set; }
+    public virtual string Name { get; set; }
+    public virtual string Category { get; set; }
 
 }

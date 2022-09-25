@@ -28,7 +28,7 @@ public class ProductRepository : IProductRepository
         }
         finally
         {
-            transacation.Dispose();
+            transacation?.Dispose();
         }
     }
 
