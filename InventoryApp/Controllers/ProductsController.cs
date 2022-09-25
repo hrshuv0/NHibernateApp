@@ -15,9 +15,11 @@ public class ProductsController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        return View();
+        IList<Product> productList = await _productRepository.GetAll();
+
+        return View(productList);
     }
 
 

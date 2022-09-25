@@ -37,9 +37,22 @@ public class ProductRepository : IProductRepository
         throw new NotImplementedException();
     }
 
-    public Task<IList<Product>> GetAll()
+    public async Task<IList<Product>> GetAll()
     {
-        throw new NotImplementedException();
+        using var transaction = _session.BeginTransaction();
+
+        try
+        {
+            IQuery sqlQuery = _session.CreateSQLQuery($"select * from Product").AddEntity(typeof(Product));
+
+            IList<Product> productList = await sqlQuery.ListAsync<Product>();
+
+            return productList;
+        }
+        catch (Exception)
+        {
+            throw;
+        }
     }
 
     public Task<Product> GetById(long id)
